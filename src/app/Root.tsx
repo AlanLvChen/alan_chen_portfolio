@@ -1,10 +1,12 @@
 import { SpeedInsights } from '@vercel/speed-insights/next';
-function App() {
+import HomePage from './main/HomePage';
+const Root = () => {
 
   return (
     <>
+      <HomePage />
       <SpeedInsights /></>
   )
 }
 
-export default App;
+export default Root;
