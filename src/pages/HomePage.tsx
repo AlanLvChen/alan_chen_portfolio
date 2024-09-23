@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from "@mui/material"
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 
 
@@ -15,19 +16,16 @@ const HomePage = () => {
                 </Typography>
                 <Typography variant="body1" sx={{ marginBottom: 2 }}>Let's make beautiful and engaging experiences.</Typography>
 
-                {/* Links */}
                 <Box>
-                    <Button variant="contained" href="https://example.com" sx={{ marginRight: 1 }}>
-                        Link 1
-                    </Button>
-                    <Button variant="contained" href="https://example.com" sx={{ marginRight: 1 }}>
-                        Link 2
-                    </Button>
-                    <Button variant="contained" href="https://example.com">
-                        Link 3
-                    </Button>
+
+                    <Link to="photos" >
+                        Photos
+                    </Link>
+                    <Link to="/">Resume</Link>
+                    <Link to="/">Experience</Link>
+                    <Link to="/">Projects</Link>
                 </Box>
-            </Box>
+            </Box >
             <Footer />
         </>
     )
