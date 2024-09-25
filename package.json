@@ -25,8 +25,7 @@
     "react-router-dom": "^6.26.2",
     "shadcn": "^2.0.8",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7",
-    "vercel": "^37.5.4"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
