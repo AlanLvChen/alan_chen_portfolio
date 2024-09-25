@@ -1,3 +1,3 @@
 # Alan Chen's Portfolio
 
-Uses React, Typescript, MUI, Vite, Vercel
+Uses React, Typescript, Shadcn, Vite, Vercel, Postgres
